@@ -1,0 +1,1 @@
+get started with next js and start syncing your github activities with local as well
