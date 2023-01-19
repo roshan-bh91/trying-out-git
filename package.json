@@ -4,7 +4,7 @@
   "description": "First repository sync up with git and mac",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --no-timeouts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/roshan-bh91/trying-out-git#readme",
   "dependencies": {
     "chai": "^4.3.7",
+    "mocha": "^10.2.0",
     "selenium-webdriver": "^4.7.1"
   }
 }
