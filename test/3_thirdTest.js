@@ -15,7 +15,7 @@ describe("getting started with todo tests", () => {
       const todoText = await driver
         .findElement(By.xpath("//li[last()]"))
         .getText();
-      todoText.should.equal("Learn Something");
+      todoText.should.equal("Learn Selenium");
     } catch (error) {
       console.error("An error occurred while executing the test");
     } finally {
