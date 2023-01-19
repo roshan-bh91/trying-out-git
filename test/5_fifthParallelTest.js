@@ -7,20 +7,18 @@ const should = require("chai").should();
 describe("getting restarted with todo tests in parallel manner", () => {
   it("should add a new todo", async () => {
     const driver = await new Builder().forBrowser("chrome").build();
-    try {
-      await driver.get("https://lambdatest.github.io/sample-todo-app");
-      await driver
-        .findElement(By.id("sampletodotext"))
-        .sendKeys("Learn Selenium", Key.ENTER);
-      const todoText = await driver
-        .findElement(By.xpath("//li[last()]"))
-        .getText();
-      todoText.should.equal("Learn Selenium");
-    } catch (error) {
-      console.error("An error occurred while executing the test");
-    } finally {
-      await driver.quit();
-    }
+    // try {
+    await driver.get("https://lambdatest.github.io/sample-todo-app");
+    await driver
+      .findElement(By.id("sampletodotext"))
+      .sendKeys("Learn Selenium", Key.ENTER);
+    const todoText = await driver
+      .findElement(By.xpath("//li[last()]"))
+      .getText();
+    todoText.should.equal("Learn JS");
+    // } finally {
+    //   await driver.quit();
+    // }
   });
 });
 
