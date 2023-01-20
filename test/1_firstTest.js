@@ -26,8 +26,8 @@ const example = async () => {
     .then((value) => {
       return value;
     });
-  // assert.strictEqual(todoText, "Learn JS");
-  console.log(assert.strictEqual(todoText, "Learn JS")); // Gives undefined
+  assert.strictEqual(todoText, "Learn Selenium");
+  // console.log(assert.strictEqual(todoText, "Learn JS")); // Gives undefined
   //   Once the test is done close the browser
   await driver.quit();
 };

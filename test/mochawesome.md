@@ -7,3 +7,7 @@ While for running mochawesome
 Mochawesome helps us generate reports for the test results of the project
 Now for changing the report file location details and name of the file
 `--reporter-options reportDir=customReportDir,reportFilename=customReportFilename`
+
+```js
+"test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=/Users/betterhalf.ai/Desktop/trying-out-git/reports,reportFilename=random"
+```

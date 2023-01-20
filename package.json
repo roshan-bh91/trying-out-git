@@ -4,7 +4,7 @@
   "description": "First repository sync up with git and mac",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=/Users/betterhalf.ai/Desktop/trying-out-git/report_details"
+    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=/Users/betterhalf.ai/Desktop/trying-out-git/reports,reportFilename=random"
   },
   "repository": {
     "type": "git",
