@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2023-01-20T07:18:34.062Z",
-    "end": "2023-01-20T07:18:40.163Z",
-    "duration": 6101,
+    "start": "2023-01-20T11:02:16.074Z",
+    "end": "2023-01-20T11:02:22.863Z",
+    "duration": 6789,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f98ee9b5-8e3b-4e80-8c48-f7175a6feb17",
+      "uuid": "6cc09ba7-9960-41ae-83a5-96d8b83458fd",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,85 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bbf3745f-4aa6-433e-8c69-fdd8680778e8",
-          "title": "getting started with todo tests",
-          "fullFile": "/Users/betterhalf.ai/Desktop/trying-out-git/test/3_thirdTest.js",
-          "file": "/test/3_thirdTest.js",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "should add a new todo",
-              "fullTitle": "getting started with todo tests should add a new todo",
-              "timedOut": null,
-              "duration": 5321,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "const driver = await new Builder().forBrowser(\"chrome\").build();\ntry {\n  await driver.get(\"https://lambdatest.github.io/sample-todo-app\");\n  await driver\n    .findElement(By.id(\"sampletodotext\"))\n    .sendKeys(\"Learn Selenium\", Key.ENTER);\n  const todoText = await driver\n    .findElement(By.xpath(\"//li[last()]\"))\n    .getText();\n  todoText.should.equal(\"Learn Selenium\");\n} catch (error) {\n  console.error(\"An error occurred while executing the test\");\n} finally {\n  await driver.quit();\n}",
-              "err": {},
-              "uuid": "d71e75db-d660-4c2a-8bad-48aba7cfa3ab",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [
-            "d71e75db-d660-4c2a-8bad-48aba7cfa3ab"
-          ],
-          "failures": [],
-          "pending": [],
-          "skipped": [],
-          "duration": 5321,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": null
-        },
-        {
-          "uuid": "fd493e23-c9ce-4d14-aef5-614f6265fa23",
-          "title": "getting restarted with todo tests in parallel manner",
-          "fullFile": "/Users/betterhalf.ai/Desktop/trying-out-git/test/5_fifthParallelTest.js",
-          "file": "/test/5_fifthParallelTest.js",
-          "beforeHooks": [],
-          "afterHooks": [],
-          "tests": [
-            {
-              "title": "should add a new todo",
-              "fullTitle": "getting restarted with todo tests in parallel manner should add a new todo",
-              "timedOut": null,
-              "duration": 5395,
-              "state": "passed",
-              "speed": "slow",
-              "pass": true,
-              "fail": false,
-              "pending": false,
-              "context": null,
-              "code": "const driver = await new Builder().forBrowser(\"chrome\").build();\ntry {\n  await driver.get(\"https://lambdatest.github.io/sample-todo-app\");\n  await driver\n    .findElement(By.id(\"sampletodotext\"))\n    .sendKeys(\"Learn Selenium\", Key.ENTER);\n  const todoText = await driver\n    .findElement(By.xpath(\"//li[last()]\"))\n    .getText();\n  todoText.should.equal(\"Learn Selenium\");\n} finally {\n  await driver.quit();\n}",
-              "err": {},
-              "uuid": "abfa99b3-89d5-498a-bc4d-987b2684ed7e",
-              "parentUUID": null,
-              "isHook": false,
-              "skipped": false
-            }
-          ],
-          "suites": [],
-          "passes": [
-            "abfa99b3-89d5-498a-bc4d-987b2684ed7e"
-          ],
-          "failures": [],
-          "pending": [],
-          "skipped": [],
-          "duration": 5395,
-          "root": false,
-          "rootEmpty": false,
-          "_timeout": null
-        },
-        {
-          "uuid": "c1937092-f174-4c50-900c-e55574750f15",
+          "uuid": "7d57c3cc-12d9-40e9-b1a0-18da494e8e8e",
           "title": "getting restarted with todo tests serially",
           "fullFile": "/Users/betterhalf.ai/Desktop/trying-out-git/test/4_fourthSerialTest.js",
           "file": "/test/4_fourthSerialTest.js",
@@ -116,7 +38,7 @@
               "title": "should add a new todo",
               "fullTitle": "getting restarted with todo tests serially should add a new todo",
               "timedOut": null,
-              "duration": 5689,
+              "duration": 4680,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -125,7 +47,7 @@
               "context": null,
               "code": "const driver = await new Builder().forBrowser(\"chrome\").build();\ntry {\n  await driver.get(\"https://lambdatest.github.io/sample-todo-app\");\n  await driver\n    .findElement(By.id(\"sampletodotext\"))\n    .sendKeys(\"Learn Selenium\", Key.ENTER);\n  const todoText = await driver\n    .findElement(By.xpath(\"//li[last()]\"))\n    .getText();\n  todoText.should.equal(\"Learn Selenium\");\n} catch (error) {\n  console.error(\"An error occurred while executing the test\");\n} finally {\n  await driver.quit();\n}",
               "err": {},
-              "uuid": "de947d9b-c338-4c8f-8bce-ffac5ab64274",
+              "uuid": "7057b171-ac2d-4143-8b13-76b4a564b7f9",
               "parentUUID": null,
               "isHook": false,
               "skipped": false
@@ -133,12 +55,128 @@
           ],
           "suites": [],
           "passes": [
-            "de947d9b-c338-4c8f-8bce-ffac5ab64274"
+            "7057b171-ac2d-4143-8b13-76b4a564b7f9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5689,
+          "duration": 4680,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        },
+        {
+          "uuid": "3fa3dd55-e0d8-47b9-aafd-3b8e8cbf5368",
+          "title": "getting restarted with todo tests in parallel manner",
+          "fullFile": "/Users/betterhalf.ai/Desktop/trying-out-git/test/5_fifthParallelTest.js",
+          "file": "/test/5_fifthParallelTest.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should add a new todo",
+              "fullTitle": "getting restarted with todo tests in parallel manner should add a new todo",
+              "timedOut": null,
+              "duration": 4990,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const driver = await new Builder().forBrowser(\"chrome\").build();\ntry {\n  await driver.get(\"https://lambdatest.github.io/sample-todo-app\");\n  await driver\n    .findElement(By.id(\"sampletodotext\"))\n    .sendKeys(\"Learn Selenium\", Key.ENTER);\n  const todoText = await driver\n    .findElement(By.xpath(\"//li[last()]\"))\n    .getText();\n  todoText.should.equal(\"Learn Selenium\");\n} finally {\n  await driver.quit();\n}",
+              "err": {},
+              "uuid": "ba2e39b8-5192-467f-8a02-68ce068e3f5c",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ba2e39b8-5192-467f-8a02-68ce068e3f5c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4990,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        },
+        {
+          "uuid": "c84fc0b8-1ad9-4a47-98ee-cde6a6d7456e",
+          "title": "getting started with todo tests",
+          "fullFile": "/Users/betterhalf.ai/Desktop/trying-out-git/test/3_thirdTest.js",
+          "file": "/test/3_thirdTest.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"getting started with todo tests\"",
+              "fullTitle": "getting started with todo tests \"before each\" hook in \"getting started with todo tests\"",
+              "timedOut": null,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": null,
+              "context": null,
+              "code": "capabilities[\"LT:Options\"].name = this.currentTest.title;\ndriver = new Builder()\n  .usingServer(GRID_URL)\n  .withCapabilities(capabilities)\n  .build();",
+              "err": {},
+              "uuid": "1823100c-f1b4-49f9-8116-629678170bdd",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"getting started with todo tests\"",
+              "fullTitle": "getting started with todo tests \"after each\" hook in \"getting started with todo tests\"",
+              "timedOut": null,
+              "duration": 467,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": null,
+              "context": null,
+              "code": "await driver.quit();",
+              "err": {},
+              "uuid": "4c4c4eec-3268-415d-a01f-0fd2780b3bde",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should add a new todo",
+              "fullTitle": "getting started with todo tests should add a new todo",
+              "timedOut": null,
+              "duration": 5919,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// const driver = await new Builder().forBrowser(\"chrome\").build();\ntry {\n  await driver.get(todoEndPoint);\n  await driver\n    .findElement(By.id(\"sampletodotext\"))\n    .sendKeys(\"Learn Selenium\", Key.ENTER);\n  const todoText = await driver\n    .findElement(By.xpath(\"//li[last()]\"))\n    .getText();\n  todoText.should.equal(\"Learn Selenium\");\n} catch (error) {\n  console.error(\"An error occurred while executing the test\");\n}",
+              "err": {},
+              "uuid": "925e1641-ef6d-40f3-9a66-4d6c6d5a6010",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "925e1641-ef6d-40f3-9a66-4d6c6d5a6010"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5919,
           "root": false,
           "rootEmpty": false,
           "_timeout": null

@@ -11,3 +11,19 @@ Now for changing the report file location details and name of the file
 ```js
 "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=/Users/betterhalf.ai/Desktop/trying-out-git/reports,reportFilename=random"
 ```
+
+Capabilities Exports
+```js
+exports.capabilities = {
+	"browserName": "Chrome",
+	"browserVersion": "108.0",
+	"LT:Options": {
+		"username": "roshanbetterhalf",
+		"accessKey": "4KGwbaXlTrz1Kr7S03S2amJhBqRkYaRFwNRXtoQh8swz57EZTp",
+		"platformName": "Windows 10",
+		"project": "Test build",
+		"w3c": true,
+		"plugin": "node_js-mocha"
+	}
+};
+```
